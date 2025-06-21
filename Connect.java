@@ -10,7 +10,7 @@ public class Connect
     {
         try
         {
-            conn=DriverManager.getConnection("jdbc:postgresql://localhost:5432/school","postgres","ch3cooc2h5");
+            conn=DriverManager.getConnection("jdbc:postgresql://localhost:5432/database_name","user_name","password");
 
         }
         catch(Exception e)
